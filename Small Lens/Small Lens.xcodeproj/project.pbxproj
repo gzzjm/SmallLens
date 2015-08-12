@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F8C3FDA1B7AFB1A004164AC /* ccc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C3FD91B7AFB1A004164AC /* ccc.m */; };
+		3F8C3FDE1B7AFE57004164AC /* fff.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C3FDD1B7AFE57004164AC /* fff.m */; };
 		3FAF84141B7884E000A3A288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF84131B7884E000A3A288 /* main.m */; };
 		3FAF84171B7884E000A3A288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF84161B7884E000A3A288 /* AppDelegate.m */; };
 		3FAF841D1B7884E000A3A288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAF841B1B7884E000A3A288 /* Main.storyboard */; };
@@ -44,8 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F8C3FD81B7AFB1A004164AC /* ccc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccc.h; sourceTree = "<group>"; };
-		3F8C3FD91B7AFB1A004164AC /* ccc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccc.m; sourceTree = "<group>"; };
+		3F8C3FDC1B7AFE57004164AC /* fff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fff.h; sourceTree = "<group>"; };
+		3F8C3FDD1B7AFE57004164AC /* fff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fff.m; sourceTree = "<group>"; };
 		3FAF840E1B7884E000A3A288 /* Small Lens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Small Lens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAF84121B7884E000A3A288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FAF84131B7884E000A3A288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F8C3FDB1B7AFE49004164AC /* fff */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C3FDC1B7AFE57004164AC /* fff.h */,
+				3F8C3FDD1B7AFE57004164AC /* fff.m */,
+			);
+			name = fff;
+			sourceTree = "<group>";
+		};
 		3FAF84051B7884E000A3A288 = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +143,12 @@
 		3FAF84101B7884E000A3A288 /* Small Lens */ = {
 			isa = PBXGroup;
 			children = (
+				3F8C3FDB1B7AFE49004164AC /* fff */,
 				3FAF84441B78A78A00A3A288 /* Third(第三方框架) */,
 				3FAF843D1B78989F00A3A288 /* MainController(主要控制器) */,
 				3FAF84381B78935300A3A288 /* Login(登陆) */,
 				3FAF84371B78930600A3A288 /* 其他 */,
 				3FAF84111B7884E000A3A288 /* Supporting Files */,
-				3F8C3FD81B7AFB1A004164AC /* ccc.h */,
-				3F8C3FD91B7AFB1A004164AC /* ccc.m */,
 			);
 			path = "Small Lens";
 			sourceTree = "<group>";
@@ -378,10 +386,10 @@
 				3FAF845C1B78A84400A3A288 /* AFHTTPRequestOperationManager.m in Sources */,
 				3FAF84601B78A84400A3A288 /* AFURLConnectionOperation.m in Sources */,
 				3FAF845B1B78A84400A3A288 /* AFHTTPRequestOperation.m in Sources */,
+				3F8C3FDE1B7AFE57004164AC /* fff.m in Sources */,
 				3FFC5BA91B79F75700247795 /* SLTabBarController.m in Sources */,
 				3FAF846C1B78ADAD00A3A288 /* MBProgressHUD+JM.m in Sources */,
 				3FFC5BA11B79EEE300247795 /* SFHFKeychainUtils.m in Sources */,
-				3F8C3FDA1B7AFB1A004164AC /* ccc.m in Sources */,
 				3FAF84141B7884E000A3A288 /* main.m in Sources */,
 				3FAF84611B78A84400A3A288 /* AFURLRequestSerialization.m in Sources */,
 				3FAF845D1B78A84400A3A288 /* AFHTTPSessionManager.m in Sources */,

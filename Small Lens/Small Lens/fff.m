@@ -1,18 +1,18 @@
 //
-//  ccc.m
+//  fff.m
 //  Small Lens
 //
 //  Created by zjm on 15-8-12.
 //  Copyright (c) 2015年 zjm. All rights reserved.
 //
 
-#import "ccc.h"
+#import "fff.h"
 
-@interface ccc ()
+@interface fff ()
 
 @end
 
-@implementation ccc
+@implementation fff
 
 - (void)viewDidLoad {
     [super viewDidLoad];

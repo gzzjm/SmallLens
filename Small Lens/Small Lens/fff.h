@@ -1,5 +1,5 @@
 //
-//  aaaa.h
+//  fff.h
 //  Small Lens
 //
 //  Created by zjm on 15-8-12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface aaaa : UITabBarController
+@interface fff : UITabBarController
 
 @end
