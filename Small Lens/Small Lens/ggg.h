@@ -1,13 +1,13 @@
 //
-//  fsfdsd.h
+//  ggg.h
 //  Small Lens
 //
-//  Created by xzh on 15/8/11.
+//  Created by xzh on 15/8/12.
 //  Copyright (c) 2015年 zjm. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface fsfdsd : UITableViewCell
+@interface ggg : UITableViewCell
 
 @end

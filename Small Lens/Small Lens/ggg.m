@@ -1,13 +1,13 @@
 //
-//  jjjjj.m
+//  ggg.m
 //  Small Lens
 //
-//  Created by xzh on 15/8/11.
+//  Created by xzh on 15/8/12.
 //  Copyright (c) 2015年 zjm. All rights reserved.
 //
 
-#import "jjjjj.h"
+#import "ggg.h"
 
-@implementation jjjjj
+@implementation ggg
 
 @end
